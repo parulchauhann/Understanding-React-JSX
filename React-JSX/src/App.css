@@ -1,0 +1,17 @@
+/* add your styles here */
+* {
+    text-align: center;
+}
+
+.row{
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
+}
+.image{
+ width: 42vw;
+ margin: 10px;
+}
+
